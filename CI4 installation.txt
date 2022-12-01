@@ -3,7 +3,7 @@ Instalasi Code igniter 4 :
 2. Download & install VSCode
 3. Download & install CodeIgniter 4 : codeigniter.com
 4. Extract & Copy file codeigniter ke folder xampp/htdocs atau laragon/www(cth ; cv)
-5. Arahkan vscode ke folder cv, ubah env > .env; CI_ENVIRONMENT = production > CI_ENVIRONMENT = development
+5. Arahkan VSCode ke folder cv (laragon/www/cv atau xampp/htdocs/cv), ubah env > .env; CI_ENVIRONMENT = production > CI_ENVIRONMENT = development
 6. Konfigurasi database codeigniter :
 	database.default.hostname = localhost
 	database.default.database = quantum
@@ -12,8 +12,8 @@ Instalasi Code igniter 4 :
 	database.default.DBDriver = MySQLi
 	database.default.DBPrefix =
 	database.default.port = 3306
-7. Ubah konfigurasi file php.ini > nyalakan extension.intl
+7. Ubah konfigurasi file php.ini (jika memakai XAMPP) > nyalakan extension ( ;.intl > .intl )
 8. Install composer untuk mempermudah pengembangan (instalasi phpspreadsheet, myth-auth, dompdf, ...dst.)
-9. Di dalam terminal vs code ketik : "php spark serve", untuk memanggil server codeigniter
-10.Ctrl+click pada "http://localhost:8080" atau ketik localhost:8080 pada Google atau Edge
+9. Di dalam terminal vs code (atau command prompt) ketik : "php spark serve", untuk memanggil server codeigniter
+10.Ctrl+click pada "http://localhost:8080" atau ketik http://localhost:8080 pada Google atau Edge
 
