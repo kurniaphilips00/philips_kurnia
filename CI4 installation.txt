@@ -13,7 +13,7 @@ Instalasi Code igniter 4 :
 	database.default.DBPrefix =
 	database.default.port = 3306
 7. Ubah konfigurasi file php.ini > nyalakan extension.intl
-8. Install composer untuk mempermudah pengembangan
+8. Install composer untuk mempermudah pengembangan (instalasi phpspreadsheet, myth-auth, dompdf, ...dst.)
 9. Di dalam terminal vs code ketik : "php spark serve", untuk memanggil server codeigniter
 10.Ctrl+click pada "http://localhost:8080" atau ketik localhost:8080 pada Google atau Edge
 
